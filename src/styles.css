@@ -1,0 +1,74 @@
+/* Base Typography */
+body {
+  font-family: "Albert Sans", sans-serif;
+  background-color: #004F44;
+  line-height: 1.5; /* Adjust for readability */
+  margin: 0;
+  color: #EFF7F5;
+}
+
+/* Headings */
+h1 {
+  font-size: 72px;
+  font-weight: 500; /* Use medium weight for emphasis */
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400; /* Regular weight */
+  margin: 0;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 1em; 
+}
+
+/* Links */
+a {
+  font-size: 16px;
+  color: #EFF7F5;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #D2F7EE; 
+}
+
+
+/* Utility classes for different font weights */
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
